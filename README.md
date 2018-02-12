@@ -1,16 +1,16 @@
-## Eximius_Android_Training_Batch1
-Android Nougat (7.1.2) Bring Up on Raspberry Pi 3
+## Eximius_Android_Training
+Android Nougat (7.1.2) Bring Up and Stabilization on Raspberry Pi 3
 
 #### 1. System Requirements
 Refer to https://source.android.com/setup/requirements
 
-# 2. Establishing a Build Environment
+#### 2. Establishing a Build Environment
 Refer to https://source.android.com/setup/initializing
 
-# 3. Download Android Nougat Source with patches (local_manifests)
-Refer to http://source.android.com/source/downloading.html                                                                              $ repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.2_r19.
-$ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests
-$ repo sync -f
+#### 3. Download Android Nougat Source with patches (local_manifests)                                                              
+Refer to http://source.android.com/source/downloading.html                                                                              $ repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.2_r19
+$ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests  
+$ repo sync -f -j4
  
 # 4. Build for Raspberry Pi 3.
 
