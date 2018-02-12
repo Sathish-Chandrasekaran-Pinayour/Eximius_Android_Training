@@ -13,7 +13,7 @@ $ repo init -u https://android.googlesource.com/platform/manifest -b android-7.1
 $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests
 $ repo sync -f
  
-# 4. Build for Raspberry Pi 3
+# 4. Build for Raspberry Pi 3.
 
 # 1. Build Kernel
  Install gcc-arm-linux-gnueabihf
