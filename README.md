@@ -8,9 +8,9 @@ Refer to https://source.android.com/setup/requirements
 Refer to https://source.android.com/setup/initializing
 
 #### 3. Download Android Nougat Source with patches (local_manifests)                                                              
-Refer to http://source.android.com/source/downloading.html                                                                              $ repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.2_r19
-$ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests  
-$ repo sync -f -j4
+Refer to http://source.android.com/source/downloading.html                                                                              - $ repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.2_r19
+- $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests  
+- $ repo sync -f -j4
  
 # 4. Build for Raspberry Pi 3.
 
