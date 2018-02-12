@@ -11,7 +11,7 @@ Refer to https://source.android.com/setup/initializing
 Refer to http://source.android.com/source/downloading.html
 - $ repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.2_r19
 - $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests  
-- $ repo sync -f -j4
+- $ repo sync -f --> Use -j[n] option if build host has a good number of CPU cores. e.g repo sync -f -j64
 
 #### 4. Build for Raspberry Pi 3.
 
@@ -31,7 +31,7 @@ Install gcc-arm-linux-gnueabihf
 Refer to http://source.android.com/source/building.html
 - $ source build/envsetup.sh
 - $ lunch rpi3-eng
-- $ make -j4
+- $ make -j4 --> Use -j[n] option if build host has a good number of CPU cores. e.g make -j64
 
 ###### 5. Prepare SD Card
 Partitions of the card should be set-up as follows:
@@ -51,4 +51,3 @@ Partitions of the card should be set-up as follows:
 - kernel/rpi/arch/arm/boot/dts/bcm2710-rpi-3-b.dtb to p1:/
 - kernel/rpi/arch/arm/boot/dts/overlays/vc4-kms-v3d.dtbo to p1:/overlays/vc4-kms-v3d.dtbo
 - out/target/product/rpi3/ramdisk.img to p1:/
-
