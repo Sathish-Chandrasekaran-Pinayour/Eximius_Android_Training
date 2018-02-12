@@ -30,7 +30,7 @@ Refer to http://source.android.com/source/downloading.html
  Continue build with http://source.android.com/source/building.html
  $ source build/envsetup.sh
  $ lunch rpi3-eng
- $ make
+ $ make -j4
 
 # 5. Prepare SD Card
  Partitions of the card should be set-up as follows
