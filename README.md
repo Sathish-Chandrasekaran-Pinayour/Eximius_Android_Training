@@ -1,7 +1,7 @@
-# Eximius_Android_Training_Batch1
+## Eximius_Android_Training_Batch1
 Android Nougat (7.1.2) Bring Up on Raspberry Pi 3
 
-# 1. System Requirements
+#### 1. System Requirements
 Refer to https://source.android.com/setup/requirements
 
 # 2. Establishing a Build Environment
