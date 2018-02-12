@@ -33,7 +33,7 @@ Refer to http://source.android.com/source/downloading.html
  $ make
 
 # 5. Prepare SD Card
- Partitions of the card should be set-up as follows :
+ Partitions of the card should be set-up as follows
   p1 512MB for BOOT : Do fdisk : W95 FAT32(LBA) & Bootable, mkfs.vfat
   p2 512MB for /system : Do fdisk, new primary partition
   p3 512MB for /cache  : Do fdisk, mkfs.ext4
