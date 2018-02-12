@@ -14,6 +14,7 @@ Refer to http://source.android.com/source/downloading.html
  $ repo sync -f
  
 # 4. Build for Raspberry Pi 3
+
 # 1. Build Kernel
  Install gcc-arm-linux-gnueabihf
  $ cd kernel/rpi
