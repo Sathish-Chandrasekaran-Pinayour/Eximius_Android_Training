@@ -26,6 +26,7 @@ Install gcc-arm-linux-gnueabihf
 - sudo apt-get install python-mako
 
 ###### 3. Patch framework source :
+https://github.com/Sathish-Chandrasekaran-Pinayour/Eximius_Android_Training_Batch1/wiki/Patch-Framework-Source
   
 ###### 4. Build Android source
 Refer to http://source.android.com/source/building.html
