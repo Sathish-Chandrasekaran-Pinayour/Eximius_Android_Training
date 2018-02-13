@@ -23,6 +23,7 @@
         </module>
 
         <xi:include href="usb_audio_policy_configuration.xml"/>
+        <xi:include href="a2dp_audio_policy_configuration.xml"/>
     </modules>
 
     <xi:include href="audio_policy_volumes.xml"/>
