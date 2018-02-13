@@ -1077,7 +1077,6 @@ public final class StrictMode {
         // overrides this, so we force the behavior only after the short-circuit
         // check above.
         if (IS_ENG_BUILD) {
-            doFlashes = true;
         }
 
         // Thread policy controls BlockGuard.
