@@ -112,9 +112,6 @@ void SoftwareRenderer::resetFormatIfChanged(const sp<AMessage> &format) {
             case OMX_COLOR_FormatYUV420SemiPlanar:
             case OMX_TI_COLOR_FormatYUV420PackedSemiPlanar:
             {
-                halFormat = HAL_PIXEL_FORMAT_YV12;
-                bufWidth = (mCropWidth + 1) & ~1;
-                bufHeight = (mCropHeight + 1) & ~1;
                 break;
             }
             case OMX_COLOR_Format24bitRGB888:
