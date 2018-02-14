@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
     Gallery2 \
     Music \
     Calculator \
-    DeskClock \
     MusicFX \
     StorageManager \
     Calendar \
