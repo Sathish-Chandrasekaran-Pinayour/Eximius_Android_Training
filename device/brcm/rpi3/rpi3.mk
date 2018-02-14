@@ -11,10 +11,27 @@ include frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap.mk
 
 # application packages
 PRODUCT_PACKAGES += \
-    Launcher2 \
-    LeanbackLauncher \
     Settings \
-    Browser2
+    Launcher3 \
+    ManagedProvisioning \
+    Bluetooth \
+    Gallery \
+    SpeechRecorder \
+    Browser2 \
+    Gallery2 \
+    Music \
+    Calculator \
+    DeskClock \
+    MusicFX \
+    StorageManager \
+    Calendar \
+    DevCamera \
+    Camera2 \
+    Terminal \
+    PackageInstaller \
+    Settings \
+    Phone \
+    SoundRecorder
 
 # system packages
 PRODUCT_PACKAGES += \
