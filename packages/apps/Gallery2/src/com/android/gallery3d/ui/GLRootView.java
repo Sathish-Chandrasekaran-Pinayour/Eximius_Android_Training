@@ -121,7 +121,7 @@ public class GLRootView extends GLSurfaceView
         setBackgroundDrawable(null);
         setEGLContextClientVersion(ApiHelper.HAS_GLES20_REQUIRED ? 2 : 1);
         if (ApiHelper.USE_888_PIXEL_FORMAT) {
-            setEGLConfigChooser(8, 8, 8, 0, 0, 0);
+            setEGLConfigChooser(8, 8, 8, 8, 16, 0);
         } else {
             setEGLConfigChooser(5, 6, 5, 0, 0, 0);
         }
