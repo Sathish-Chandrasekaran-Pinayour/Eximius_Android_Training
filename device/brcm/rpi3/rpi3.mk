@@ -30,7 +30,11 @@ PRODUCT_PACKAGES += \
     PackageInstaller \
     Settings \
     Phone \
-    SoundRecorder
+    SoundRecorder \
+    Chrome \
+    Youtube \
+    PlayService
+
 
 # system packages
 PRODUCT_PACKAGES += \
