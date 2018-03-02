@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES := \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
-    system/media/bootanimation/bootanimation.zip:system/media/bootanimation.zip \
     $(LOCAL_PATH)/rpi3_core_hardware.xml:system/etc/permissions/rpi3_core_hardware.xml \
     $(LOCAL_PATH)/init.rpi3.rc:root/init.rpi3.rc \
     $(LOCAL_PATH)/init.usb.rc:root/init.usb.rc \
