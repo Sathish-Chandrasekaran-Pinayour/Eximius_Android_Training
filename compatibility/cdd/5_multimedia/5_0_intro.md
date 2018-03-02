@@ -1,2 +1,0 @@
-# 5\. Multimedia Compatibility
-
