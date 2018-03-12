@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
+# boot animation
+PRODUCT_COPY_FILES += \
+    device/brcm/rpi3/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+
 # system configurations
 PRODUCT_COPY_FILES := \
     hardware/broadcom/wlan/bcmdhd/config/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
